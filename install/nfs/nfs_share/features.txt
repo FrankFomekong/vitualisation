@@ -1,0 +1,1 @@
+fpu sse3 vme dtes64 ds-cpl vmx smx est tm2 apic ssse3 sdbg mtrr pge xtpr pdcm clfsh sse4.1 ds acpi movbe mmx popcnt tsc-deadline sse aes sse2 xsave ss osxsave htt avx tm ia64 pbe 

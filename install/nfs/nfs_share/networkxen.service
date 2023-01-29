@@ -1,0 +1,9 @@
+[Unit]
+Description=Create xenbr0 interface systemd service.
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /root/Network.sh 192.168.43.182
+
+[Install]
+WantedBy=multi-user.target

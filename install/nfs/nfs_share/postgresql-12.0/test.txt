@@ -1,0 +1,15 @@
+make -C ./src/backend generated-headers
+make[1]: Entering directory '/mnt/nfs_clientshare/postgresql-12.0/src/backend'
+make -C catalog distprep generated-header-symlinks
+make[2]: Entering directory '/mnt/nfs_clientshare/postgresql-12.0/src/backend/catalog'
+make[2]: Nothing to be done for 'distprep'.
+make[2]: Nothing to be done for 'generated-header-symlinks'.
+make[2]: Leaving directory '/mnt/nfs_clientshare/postgresql-12.0/src/backend/catalog'
+make -C utils distprep generated-header-symlinks
+make[2]: Entering directory '/mnt/nfs_clientshare/postgresql-12.0/src/backend/utils'
+make[2]: Nothing to be done for 'distprep'.
+make[2]: Nothing to be done for 'generated-header-symlinks'.
+make[2]: Leaving directory '/mnt/nfs_clientshare/postgresql-12.0/src/backend/utils'
+make[1]: Leaving directory '/mnt/nfs_clientshare/postgresql-12.0/src/backend'
+rm -rf '/mnt/nfs_clientshare/postgresql-12.0'/tmp_install
+src/Makefile.global:390: recipe for target 'temp-install' failed
