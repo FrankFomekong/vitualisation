@@ -12,4 +12,4 @@ xl destroy  myvm
 source loop.sh 
 rm /mnt/nfs_share/features.txt
 rm /mnt/nfs_share/test.txt
-
+echo '================ execution terminee consulter la liste des features necessaires trouvee dans le fichier finalFeature.txt ==========='
